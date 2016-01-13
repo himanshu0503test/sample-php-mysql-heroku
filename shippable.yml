@@ -9,6 +9,9 @@ php:
   - 5.6
   - '7.0'
   
+services:
+   - mysql
+  
 env:
   global:
     - APP_NAME=obscure-citadel-8851
